@@ -90,7 +90,7 @@ select{
 .section-3{
     display: flex;
     flex-direction: column;
-    width: 1050px;
+    width: 1200px;
 }
 .section-3-top{
     display: flex;
@@ -100,19 +100,36 @@ select{
     padding-left: 10px;
     /* width: 1050px; */
 
-    background-color: pink;
+    /* background-color: pink; */
 
 }
 .section-3-middle{
     height: 50px;
   padding-top: 20px;
     padding-left: 10px;
-    background-color: blueviolet;
-}
+    
+} 
 .section-3-p{
     height: 200px;
-    background-color: violet;
+    width: 1050;
+    
 }
 .textarea{
-    padding-top: 30px;
+    padding-top: 75px;
+    width: 1200px;
+}
+.section-3-f{
+    position: relative;
+    width: 1050px;
+
+}
+.sticker-t{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+.setickr-b{
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
 }
